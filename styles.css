@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #3b82f6;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    overflow: auto;
+}
+
+.note-form {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.note-form h2 {
+    margin-bottom: 20px;
+}
+
+.note-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.note-form input,
+.note-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.note-form button {
+    display: block;
+    width: 100%;
+    background-color: #f97316;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.note-form button:hover {
+    background-color: #fb923c;
+}
+
+.resources {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 50%;
+    margin-left: 50px;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+.resources h2 {
+    margin-bottom: 20px;
+}
+
+.resources ul {
+    list-style: none;
+}
+
+.resources ul li {
+    margin-bottom: 10px;
+}
+
+.resources ul li a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.resources ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #3b82f6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
